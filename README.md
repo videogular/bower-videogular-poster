@@ -9,6 +9,8 @@ Install [Videogular](http://www.videogular.com/) `poster` plugin with Bower:
 
 `bower install videogular-poster`
 
+Inside the folder `bower_components\videogular-poster` you should find also `html` partials that you should locate in `.\views\videogular\plugins\poster\`.
+
 ### Install Videogular
 
 Install [Videogular](http://www.videogular.com/) with Bower:
