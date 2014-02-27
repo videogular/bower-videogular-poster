@@ -1,6 +1,11 @@
 CHANGELOG
 ================
 
+## v0.3.1
+* Added support for minification.
+* Added minified version.
+* Now all plugin HTML templates are embedded in JS files (easier to deploy with bower).
+
 ## v0.3.0
 * No changes.
 
