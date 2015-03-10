@@ -1,5 +1,5 @@
 /**
- * @license Videogular v1.0.1 http://videogular.com
+ * @license videogular v1.1.0 http://videogular.com
  * Two Fucking Developers http://twofuckingdevelopers.com
  * License: MIT
  */
@@ -9,17 +9,17 @@
  * @restrict E
  * @description
  * Shows an image when player hasn't been played or has been completed a video.
- *
- * @param {string} vgUrl String with a scope name variable. URL to an image supported by the img tag.
- * **This parameter is required.**
- *
- * ```html
+ * <pre>
  * <videogular vg-theme="config.theme.url" vg-autoplay="config.autoPlay">
  *    <vg-media vg-src="sources"></vg-media>
  *
  *    <vg-poster vg-url='config.plugins.poster.url'></vg-poster>
  * </videogular>
- * ```
+ * </pre>
+ *
+ * @param {string} vgUrl String with a scope name variable. URL to an image supported by the img tag.
+ * **This parameter is required.**
+ *
  *
  */
 "use strict";
