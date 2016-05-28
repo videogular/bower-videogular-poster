@@ -1,5 +1,5 @@
 /**
- * @license videogular v1.4.3 http://videogular.com
+ * @license videogular v1.4.4 http://videogular.com
  * Two Fucking Developers http://twofuckingdevelopers.com
  * License: MIT
  */
@@ -27,7 +27,7 @@ angular.module("com.2fdevs.videogular.plugins.poster", [])
     .run(
     ["$templateCache", function ($templateCache) {
         $templateCache.put("vg-templates/vg-poster",
-            '<img ng-src="{{vgUrl}}" ng-class="API.currentState">');
+            '<img ng-src="{{vgUrl}}" ng-class="API.currentState" role="presentation" alt="">');
     }]
 )
     .directive("vgPoster",
